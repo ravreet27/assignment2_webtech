@@ -1,0 +1,1035 @@
+{
+	"info": {
+		"_postman_id": "580e2340-192f-440e-8b19-fcbe39def37e",
+		"name": "Assignment2_webTech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33002833"
+	},
+	"item": [
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"description\": \"Rider Watch, premium quality leather strap with silver dial\",\r\n            \"image\": \"image1\",\r\n            \"pricing\": \"150\",\r\n            \"shippingCost\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost/assignment2_webtech/addProduct.php"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"Armani Watch, black leather strap with crystal dial\",\r\n            \"image\": \"image2\",\r\n            \"pricing\": \"200\",\r\n            \"shippingCost\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost/assignment2_webtech/addProduct.php"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n            \"description\": \"Curren Watch, black metal strap with black dial\",\r\n            \"image\": \"image5\",\r\n            \"pricing\": \"300\",\r\n            \"shippingCost\": \"40\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost/assignment2_webtech/getProduct.php"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n            \"description\": \"Curren Watch, black metal strap with black dial\",\r\n            \"image\": \"image5\",\r\n            \"pricing\": \"300\",\r\n            \"shippingCost\": \"40\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/getProduct.php?productId=16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"getProduct.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n            \"description\": \"Curren Watch, black metal strap with black dial\",\r\n            \"image\": \"image5\",\r\n            \"pricing\": \"300\",\r\n            \"shippingCost\": \"40\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/deleteProduct.php?productId=16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"deleteProduct.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n            \"description\": \"Curren Watch, black metal strap with black dial\",\r\n            \"image\": \"image5\",\r\n            \"pricing\": \"300\",\r\n            \"shippingCost\": \"40\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/getProduct.php?productId=16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"getProduct.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"productId\": 17,\r\n            \"description\": \"Curren Watch, black metal strap with black dial\",\r\n            \"image\": \"image5\",\r\n            \"pricing\": \"300\",\r\n            \"shippingCost\": \"40\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/updateProduct.php?productId=17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"updateProduct.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "17"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"email\": \"user1@example.com\",\r\n            \"password\": \"password123\",\r\n            \"username\": \"user1\",\r\n            \"purchaseHistory\": \"Swiss Watch\",\r\n            \"shippingAddress\": \"123 conestoga Street, City, Country\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addUser.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addUser.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "17",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n             \"email\": \"user3@example.com\",\r\n            \"password\": \"password123\",\r\n            \"username\": \"user3\",\r\n            \"purchaseHistory\": \"Rolex Watch\",\r\n            \"shippingAddress\": \"123 conestoga Street, City, Country\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addUser.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addUser.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "17",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n             \"email\": \"user3@example.com\",\r\n            \"password\": \"password123\",\r\n            \"username\": \"user3\",\r\n            \"purchaseHistory\": \"Rolex Watch\",\r\n            \"shippingAddress\": \"123 conestoga Street, City, Country\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/getUser.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"getUser.php"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "17",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n             \"email\": \"user3@example.com\",\r\n            \"password\": \"password123\",\r\n            \"username\": \"user3\",\r\n            \"purchaseHistory\": \"Rolex Watch\",\r\n            \"shippingAddress\": \"123 conestoga Street, City, Country\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/getUser.php?userId=9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"getUser.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n             \"email\": \"user3@example.com\",\r\n            \"password\": \"password123\",\r\n            \"username\": \"user3\",\r\n            \"purchaseHistory\": \"Rolex Watch\",\r\n            \"shippingAddress\": \"123 conestoga Street, City, Country\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/getUser.php?userId=13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"getUser.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "13"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{              \"userId\":10,\r\n             \"email\": \"user3@example.com\",\r\n            \"password\": \"password123\",\r\n            \"username\": \"user3\",\r\n            \"purchaseHistory\": \"Rolex Watch\",\r\n            \"shippingAddress\": \"123 conestoga Street, City, Country\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/updateUser.php?userId=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"updateUser.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {              \r\n          \"productId\": \"1\",\r\n            \"userId\": \"1\",\r\n            \"quantity\": \"2\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addCart.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {              \r\n          \"productId\": \"17\",\r\n            \"userId\": \"1\",\r\n            \"quantity\": \"2\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addCart.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {              \r\n          \"productId\": \"17\",\r\n            \"userId\": \"9\",\r\n            \"quantity\": \"2\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addCart.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {              \r\n          \"productId\": \"17\",\r\n            \"userId\": \"10\",\r\n            \"quantity\": \"3\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addCart.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {              \r\n          \"productId\": \"17\",\r\n            \"userId\": \"10\",\r\n            \"quantity\": \"3\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/viewCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"viewCart.php"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"cartId\"  : 6,        \r\n          \"productId\": \"17\",\r\n            \"userId\": \"10\",\r\n            \"quantity\": \"3\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/deleteCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"deleteCart.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"cartId\"  : 6,        \r\n          \"productId\": \"17\",\r\n            \"userId\": \"10\",\r\n            \"quantity\": \"3\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/viewCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"viewCart.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"cartId\"  : 7,        \r\n          \"productId\": \"18\",\r\n            \"userId\": \"10\",\r\n            \"quantity\": \"3\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/updateCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"updateCart.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"cartId\"  : 7,        \r\n          \"productId\": \"18\",\r\n            \"userId\": \"10\",\r\n            \"quantity\": \"3\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/viewCart.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"viewCart.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"productId\": \"2\",\r\n            \"userId\": \"1\",\r\n            \"quantity\": \"2\",\r\n            \"totalCost\": \"220\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addOrder.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addOrder.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"productId\": \"17\",\r\n            \"userId\": \"1\",\r\n            \"quantity\": \"2\",\r\n            \"totalCost\": \"220\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addOrder.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addOrder.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"productId\": \"17\",\r\n            \"userId\": \"9\",\r\n            \"quantity\": \"2\",\r\n            \"totalCost\": \"220\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addOrder.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addOrder.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      {    \"productId\": \"18\",\r\n            \"userId\": \"9\",\r\n            \"quantity\": \"2\",\r\n            \"totalCost\": \"220\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/viewOrders.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"viewOrders.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      { \"orderId\": \"10\",   \r\n        \"productId\": \"18\",\r\n            \"userId\": \"9\",\r\n            \"quantity\": \"2\",\r\n            \"totalCost\": \"220\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/deleteOrders.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"deleteOrders.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      { \r\n        \"productId\": \"18\",\r\n            \"userId\": \"9\",\r\n            \"rating\": \"5\",\r\n            \"image\": \"image3\",\r\n            \"text\": \"nice watch\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/addComment.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"addComment.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      { \r\n        \"productId\": \"19\",\r\n            \"userId\": \"9\",\r\n            \"rating\": \"5\",\r\n            \"image\": \"image3\",\r\n            \"text\": \"nice watch\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/viewComments.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"viewComments.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/assignment2_webtech/addProduct.php",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "      { \"commentId\": \"5\",\r\n        \"productId\": \"19\",\r\n            \"userId\": \"9\",\r\n            \"rating\": \"5\",\r\n            \"image\": \"image3\",\r\n            \"text\": \"nice watch\"\r\n      }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/assignment2_webtech/deleteComment.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"assignment2_webtech",
+						"deleteComment.php"
+					],
+					"query": [
+						{
+							"key": "cartId",
+							"value": "6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
